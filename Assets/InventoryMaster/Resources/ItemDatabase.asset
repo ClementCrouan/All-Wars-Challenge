@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      +
+      20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Iron Sword
+    itemID: 1
+    itemDesc: + 2 Damage
+    itemIcon: {fileID: 21300000, guid: 439486a4aa566984eba71b527d0ceaf7, type: 3}
+    itemModel: {fileID: 7676346095410595800, guid: cf4c6dfc318c60b4c8ca5d832a475fc7,
+      type: 3}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 1
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 99
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 2
+  - itemName: Gold Sword
+    itemID: 2
+    itemDesc: + 4 Damage
+    itemIcon: {fileID: 21300000, guid: 9edf2f732af7da0489957c4c519f4df9, type: 3}
+    itemModel: {fileID: 6436197429254757316, guid: eab3f7dc294cc5047832b81bd617418e,
+      type: 3}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 2
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 90
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 4
+  - itemName: Leather Helmet
+    itemID: 3
+    itemDesc: + 2 Armor
+    itemIcon: {fileID: 21300000, guid: 63dca6d4e4e873a4cb09997656d54082, type: 3}
+    itemModel: {fileID: 7994487763044851659, guid: 95b2e326c3f776443b3031aaebe4e54f,
+      type: 3}
+    itemValue: 1
+    itemType: 4
+    itemWeight: 1
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 99
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 2
+  - itemName: Magic Sword
+    itemID: 4
+    itemDesc: + 10 Damage
+    itemIcon: {fileID: 21300000, guid: 439477293d0566a49ad2698184b23e2d, type: 3}
+    itemModel: {fileID: 1865780185108237617, guid: 7593d9edd0790b441a79ad60a5ab5779,
+      type: 3}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 10
+  - itemName: Iron Bracer
+    itemID: 5
+    itemDesc: + 4 Armor
+    itemIcon: {fileID: 21300000, guid: 9e108c3d338a850449f80cf654004b28, type: 3}
+    itemModel: {fileID: 4933261241434946547, guid: 2a85462825bd41c459a49f447a866ecd,
+      type: 3}
+    itemValue: 1
+    itemType: 11
+    itemWeight: 2
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 90
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 4
+  - itemName: Iron Large Sword
+    itemID: 6
+    itemDesc: + 12 Damage
+    itemIcon: {fileID: 21300000, guid: 2d0baef73517eee41b2919b9fbfefa6a, type: 3}
+    itemModel: {fileID: 7834254340012337367, guid: ff72d72bfde5e9c478f43cde9c922a4f,
+      type: 3}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 6
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 40
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 12
+  - itemName: Medium Health Potion
+    itemID: 7
+    itemDesc: + 20 Health
+    itemIcon: {fileID: 21300000, guid: 43703bcfcf2f7b64e8887eea229215ba, type: 3}
+    itemModel: {fileID: 3835463371213907655, guid: 534d8c31fe93ac342b492d6e51dc13c4,
+      type: 3}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 2
+    maxStack: 10
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Health
+      attributeValue: 20
+  - itemName: Medium Mana Potion
+    itemID: 8
+    itemDesc: + 20 Mana
+    itemIcon: {fileID: 21300000, guid: b50b97c8f9c10a3499187da7c6bdd61d, type: 3}
+    itemModel: {fileID: 1386822108010226290, guid: f2c8c24e39b974544abc5329546003c9,
+      type: 3}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 2
+    maxStack: 10
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Mana
+      attributeValue: 20
+  - itemName: Small Heal Potion
+    itemID: 9
+    itemDesc: + 10 Health
+    itemIcon: {fileID: 21300000, guid: 3ac254c0fa6214047a1df59938ba786f, type: 3}
+    itemModel: {fileID: 3916838828732348293, guid: 281dc3d03d659364d86b83d71dc59725,
+      type: 3}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 1
+    maxStack: 10
+    indexItemInList: 999
+    rarity: 75
+    itemAttributes:
+    - attributeName: Health
+      attributeValue: 10
+  - itemName: Small Mana Potion
+    itemID: 10
+    itemDesc: + 10 Mana
+    itemIcon: {fileID: 21300000, guid: f1de9e836c79fde4aab8a740ec51eb32, type: 3}
+    itemModel: {fileID: 2641342719000613143, guid: 1156c43254c4dcc418a3ebb2f424f34b,
+      type: 3}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 1
+    maxStack: 10
+    indexItemInList: 999
+    rarity: 75
+    itemAttributes:
+    - attributeName: Mana
+      attributeValue: 10
