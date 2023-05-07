@@ -54,3 +54,8 @@ Jeux :
 
 
 ![Capture d'écran 2023-04-06 2344132](https://user-images.githubusercontent.com/129319404/236174088-42208725-3a53-460e-a802-6be0571a34e4.png)
+
+- Résumé
+
+
+![résumé1](https://user-images.githubusercontent.com/129319404/236690646-970950e4-c9e5-4b7d-950a-e088b31f7486.png)
